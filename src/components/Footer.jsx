@@ -7,8 +7,8 @@ function Footer() {
       <div className="footer-main">
         <div className="footer-brand">
           <Link to="/" className="footer-logo">
-            <span>Tracy Godfrey</span>
-            <small>ART</small>
+            <span className="footer-tag-mark">TAG</span>
+            <small>GALLERY</small>
           </Link>
           <p>Watercolour artwork inspired by the places that stay with us.</p>
         </div>
@@ -30,7 +30,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <span>© {new Date().getFullYear()} Tracy Godfrey Art</span>
+        <span>TAG gallery © {new Date().getFullYear()}</span>
         <span>Made with care</span>
       </div>
     </footer>

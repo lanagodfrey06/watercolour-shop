@@ -29,22 +29,38 @@ a {
 
 
 .logo {
-  display: flex;
-  flex-direction: column;
-  font-family: "Playfair Display", serif;
-  line-height: 0.9;
+  display: inline-flex;
+  align-items: center;
 }
 
-.logo span {
-  font-size: 24px;
-  font-style: italic;
-}
-
-.logo small {
+.tag-mark,
+.footer-tag-mark {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  height: 38px;
+  padding: 0 13px 0 17px;
+  background: #292825;
+  color: #f8f5ef;
+  clip-path: polygon(0 0, 86% 0, 100% 50%, 86% 100%, 0 100%);
   font-family: "DM Sans", sans-serif;
-  font-size: 8px;
-  letter-spacing: 4px;
-  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 1;
+}
+
+.tag-mark::before,
+.footer-tag-mark::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  width: 4px;
+  height: 4px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: #e9e3d8;
 }
 
 nav {
@@ -446,20 +462,15 @@ nav a.active {
 .footer-logo {
   display: inline-flex;
   flex-direction: column;
-  font-family: "Playfair Display", serif;
-  line-height: 0.9;
-}
-
-.footer-logo span {
-  font-size: 25px;
-  font-style: italic;
+  align-items: flex-start;
+  gap: 7px;
 }
 
 .footer-logo small {
   font-family: "DM Sans", sans-serif;
   font-size: 8px;
-  letter-spacing: 4px;
-  text-align: center;
+  letter-spacing: 3px;
+  padding-left: 2px;
 }
 
 .footer-brand > p {

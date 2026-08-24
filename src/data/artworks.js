@@ -1,46 +1,46 @@
 const artworks = [
   {
     id: 1,
-    title: "London in the Rain",
+    title: "Tower Bridge",
     location: "London, England",
     price: 28,
-    image: "/images/london.jpg",
+    image: "/images/london2.jpg",
     category: "Iconic Landmarks",
     description:
-      "A soft watercolour interpretation of London, inspired by the city after a summer shower."
+      "A soft watercolour interpretation of London."
   },
 
   {
     id: 2,
-    title: "Lake Como",
-    location: "Lake Como, Italy",
+    title: "Funchal",
+    location: "Funchal, Madeira",
     price: 30,
-    image: "/images/lake-como.jpg",
+    image: "/images/madeira.jpeg",
     category: "European Escapes",
     description:
-      "A peaceful interpretation of Lake Como surrounded by the Italian mountains."
+      "A soft watercolour car from the town centre of Funchal."
   },
 
   {
     id: 3,
-    title: "Eiffel Tower",
-    location: "Paris, France",
+    title: "Kalkan",
+    location: "Kalkan, Turkey",
     price: 28,
-    image: "/images/paris.jpg",
-    category: "Iconic Landmarks",
+    image: "/images/kalkan.png",
+    category: "European Escapes",
     description:
-      "A delicate watercolour-style illustration of the Eiffel Tower"
+      "A delicate watercolour-style illustration of Kalkan"
   },
 
   {
     id: 4,
-    title: "Mount Fuji",
-    location: "Mount Fuji, Japan",
+    title: "Rome",
+    location: "Rome, Italy",
     price: 28,
-    image: "/images/japan.jpg",
+    image: "/images/rome1.jpeg",
     category: "Iconic Landmarks",
     description:
-      "A colourful scene surrounding Mount Fuji"
+      "A colourful scene of a shop in rome"
   },
 
   {
@@ -48,7 +48,7 @@ const artworks = [
     title: "Tropical Beach",
     location: "Tropical Beach, Maldives",
     price: 25,
-    image: "/images/maldives.jpg",
+    image: "/images/Maldives1.jpeg",
     category: "Coastal Landscapes",
     description:
       "A peaceful tropical beach located in the Maldives."
@@ -56,13 +56,53 @@ const artworks = [
 
   {
     id: 6,
-    title: "Scottish Highlands",
-    location: "Scotland",
+    title: "Waterfall",
+    location: "Yorkshire, England",
     price: 30,
-    image: "/images/river.jpg",
+    image: "/images/waterfall.jpg",
     category: "British Landscapes",
     description:
-      "A soft landscape inspired by the rivers and landscape of the Scottish Highlands."
+      "A soft landscape inspired by a waterfall structure in Yorkshire."
+  },
+  {
+    id: 7,
+    title: "Trastevere",
+    location: "Trastevere, Italy",
+    price: 31,
+    image: "/images/Trastevere.png",
+    category: "European Escapes",
+    description:
+      "A beautiful depiction of the Trastevere neighbourhood in Italy."
+  },
+  {
+    id: 8,
+    title: "Sirmione",
+    location: "Sirmione, Italy",
+    price: 30,
+    image: "/images/Sirmione.png",
+    category: "European Escapes",
+    description:
+      "A tranquil depiction of Sirmione"
+  },
+   {
+    id: 9,
+    title: "Funchal",
+    location: "Funchal, Madeira",
+    price: 32,
+    image: "/images/Madeira Gardens.jpg",
+    category: "European Escapes",
+    description:
+      "A soft watercolour of the gardens in the hills of Funchal."
+  },
+   {
+    id: 10,
+    title: "Metro",
+    location: "Rome, Italy",
+    price: 20,
+    image: "/images/Metro.png",
+    category: "European Escapes",
+    description:
+      "A trendy watercolour painting of a metro sign in Rome"
   }
 ];
 

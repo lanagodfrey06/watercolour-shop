@@ -6,8 +6,8 @@ function Navbar() {
     <header className="navbar">
 
       <Link to="/" className="logo">
-        <span>Tracy Godfrey</span>
-        <small>ART</small>
+        <span className="tag-mark">TAG</span>
+        <span className="sr-only">TAG gallery</span>
       </Link>
 
       <nav>
